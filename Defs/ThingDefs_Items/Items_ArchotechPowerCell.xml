@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<ThingDef ParentName="ResourceBase">
+  <defName>TranscendentPowerCell</defName>
+    <label>Archotech Power Cell</label>
+    <description>An extremely advanced power cell used by the Archotech to create their advanced batteries.</description>
+    <graphicData>
+      <texPath>Things/Building/Item/Transcendent/TranscendentPowerCell</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <MarketValue>7308</MarketValue>
+      <Flammability>1.0</Flammability>
+      <Mass>2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+</ThingDef>
+
+</Defs>

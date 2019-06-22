@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <RecipeDef>
+    <defName>MakeSpecificComponents</defName>
+    <label>make Specific Component</label>
+    <description>Make an Specific component.</description>
+    <jobString>Building Specific Component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+      <recipeUsers>
+         <li>FabricationBench</li>
+      </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SpecificComponents>1</SpecificComponents>
+    </products>
+    <skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>SpecificComponents</researchPrerequisite>
+  </RecipeDef>
+
+    <RecipeDef>
+    <defName>MakeSpecificComponents</defName>
+    <label>Upgrade Spacer Component to Specific Component</label>
+    <description>Upgrade a Spacer Component to a Specific Component.</description>
+    <jobString>Building Specific Component.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+      <recipeUsers>
+         <li>FabricationBench</li>
+      </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SpecificComponents>1</SpecificComponents>
+    </products>
+    <skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>SpecificComponents</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
