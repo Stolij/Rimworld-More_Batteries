@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<ThingDef ParentName="ResourceBase">
+  <defName>SpecificComponents</defName>
+    <label>Specific Components</label>
+    <description>Specific components for specific items.</description>
+    <graphicData>
+      <texPath>Things/Building/Item/SpecificComponents/SpecificComponents</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>70</MarketValue>
+      <Flammability>1.0</Flammability>
+      <Mass>0.1</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+	<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>MidTierBattery</defName>
+		<label>Advanced Battery</label>
+		<thingClass>Building_Battery</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Batteries/MidTierBattery</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<tickerType>Normal</tickerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+      		<li>BuildingsPower</li>
+    	</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Flammability>2.0</Flammability>
+			<Beauty>-6</Beauty>
+			<Mass>22</Mass>
+		</statBases>
+		<description>This Battery can store a bit more power and is a bit more efficient. Warning - charged batteries tend to explode when heated or wet.</description>
+		<size>(1,2)</size>
+		<costList>
+			<Steel>400</Steel>
+			<Uranium>2</Uranium>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Battery">
+				<storedEnergyMax>1500</storedEnergyMax>
+				<efficiency>0.65</efficiency>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<transmitsPower>true</transmitsPower>
+			</li>
+		<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<staticSunShadowHeight>0.5</staticSunShadowHeight>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>MidtierBattery</li>
+		</researchPrerequisites>
+	</ThingDef>
+	</Defs>

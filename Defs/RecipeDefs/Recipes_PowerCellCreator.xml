@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>CreateTranscendentPowerCell</defName>
+		<label>Create Transcendent Power Cell</label>
+		<description>Create a Transcendent Power Cell.</description>
+		<jobString>Creating Transcendent Power Cell</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>12000</workAmount>
+     <recipeUsers>
+         <li>PowerCellCreator</li>
+      </recipeUsers>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+       <li>
+        <filter>
+          <thingDefs>
+            <li>SpecificComponents</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+      <fixedIngredientFilter>
+      <thingDefs>
+      	<li>SpecificComponents</li>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+		<products>
+			<TranscendentPowerCell>1</TranscendentPowerCell>
+		</products>
+		<skillRequirements>
+			<Crafting>14</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+</Defs>
