@@ -2,11 +2,10 @@
 <Defs>
 
 	<RecipeDef>
-		<defName>CreateTranscendentPowerCell</defName>
-		<label>Create Transcendent Power Cell</label>
-		<description>Create a Transcendent Power Cell.</description>
-		<jobString>Creating Transcendent Power Cell</jobString>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
+		<defName>CreateArchotechPowerCell</defName>
+		<label>Create Archotech Power Cell</label>
+		<description>Create an Archotech Power Cell.</description>
+		<jobString>Creating Archotech Power Cell</jobString>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>12000</workAmount>
@@ -46,18 +45,9 @@
         </filter>
         <count>50</count>
       </li>
-       <li>
-        <filter>
-          <thingDefs>
-            <li>SpecificComponents</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
     </ingredients>
       <fixedIngredientFilter>
       <thingDefs>
-      	<li>SpecificComponents</li>
         <li>ComponentSpacer</li>
         <li>Plasteel</li>
         <li>Gold</li>
@@ -65,7 +55,7 @@
       </thingDefs>
     </fixedIngredientFilter>
 		<products>
-			<TranscendentPowerCell>1</TranscendentPowerCell>
+			<ArchotechPowerCell>1</ArchotechPowerCell>
 		</products>
 		<skillRequirements>
 			<Crafting>14</Crafting>

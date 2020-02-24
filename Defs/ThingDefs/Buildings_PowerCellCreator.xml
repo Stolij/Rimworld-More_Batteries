@@ -6,7 +6,7 @@
 		<defName>PowerCellCreator</defName>
 		<label>Power Cell Creator Table</label>
 		<thingClass>Building_WorkTable</thingClass>
-		<description>A High tech machine that can create Transcendent Power Cells.</description>
+		<description>A High tech machine that can create Archotech Power Cells.</description>
 		<rotatable>true</rotatable>
 		<graphicData>
 			<texPath>Things/Building/Production/PowerCellProduction/PowerCellProductionTable</texPath>
@@ -21,8 +21,8 @@
 		</graphicData>
 		<costList>
 			<Steel>500</Steel>
-            <ComponentSpacer>10</ComponentSpacer>
-            <SpecificComponents>10</SpecificComponents>
+			<ComponentIndustrial>12</ComponentIndustrial>
+            <ComponentSpacer>16</ComponentSpacer>
             <Gold>5</Gold>
             <Plasteel>20</Plasteel>
         </costList>
@@ -42,7 +42,7 @@
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
 		<recipes>
-			<li>CreateTranscendentPowerCell</li>
+			<li>CreateArchotechPowerCell</li>
 		</recipes>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

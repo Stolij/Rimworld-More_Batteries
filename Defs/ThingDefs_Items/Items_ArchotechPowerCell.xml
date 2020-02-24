@@ -3,11 +3,11 @@
 <Defs>
 
 <ThingDef ParentName="ResourceBase">
-  <defName>TranscendentPowerCell</defName>
+  <defName>ArchotechPowerCell</defName>
     <label>Archotech Power Cell</label>
     <description>An extremely advanced power cell used by the Archotech to create their advanced batteries.</description>
     <graphicData>
-      <texPath>Things/Building/Item/Transcendent/TranscendentPowerCell</texPath>
+      <texPath>Things/Building/Item/Archotech/ArchotechPowerCell</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>

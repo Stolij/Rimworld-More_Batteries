@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ResearchProjectDef>
-    <defName>SpecificComponents</defName>
-    <label>Specific Components</label>
-    <description>By researching this your colonists will learn how to create and identify 'Specific Components'</description>
-	<baseCost>4000</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-    	<li>MicroelectronicsBasics</li>
-      <li>Electricity</li>
-    </prerequisites>
-    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-  </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>ArchotechPowerStorage</defName>
-    <label>Transcendent Power Cells</label>
+    <label>Archotech Power Cells</label>
     <description>Learn how to create the most powerful battery cells that are used by the Archotech to build the 'Archotech Battery'</description>
 	<baseCost>8000</baseCost>
     <techLevel>Archotech</techLevel>
     <prerequisites>
     	<li>MicroelectronicsBasics</li>
       <li>Electricity</li>
-      <li>SpecificComponents</li>
       <li>AdvancedBattery</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -41,7 +27,6 @@
     <prerequisites>
     	<li>MicroelectronicsBasics</li>
       <li>Electricity</li>
-      <li>SpecificComponents</li>
       <li>AdvancedBattery</li>
       <li>ArchotechPowerStorage</li>
     </prerequisites>
@@ -60,7 +45,6 @@
     <prerequisites>
     	<li>MicroelectronicsBasics</li>
       <li>Electricity</li>
-      <li>SpecificComponents</li>
       <li>MidtierBattery</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>

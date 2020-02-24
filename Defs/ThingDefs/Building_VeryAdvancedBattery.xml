@@ -40,8 +40,8 @@
 		<costList>
 			<Steel>500</Steel>
 			<Uranium>10</Uranium>
-			<TranscendentPowerCell>10</TranscendentPowerCell>
-			<SpecificComponents>8</SpecificComponents>
+			<ArchotechPowerCell>10</ArchotechPowerCell>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<comps>
