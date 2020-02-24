@@ -39,7 +39,7 @@
 		<costList>
 			<Steel>250</Steel>
 			<Uranium>1</Uranium>
-			<SpecificComponents>2</SpecificComponents>
+			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>4</ComponentSpacer>
 		</costList>
 		<comps>
