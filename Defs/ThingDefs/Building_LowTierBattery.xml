@@ -29,7 +29,7 @@
     	</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>1200</WorkToMake>
+			<WorkToBuild>1000</WorkToBuild>
 			<Flammability>2.0</Flammability>
 			<Beauty>-6</Beauty>
 			<Mass>20</Mass>

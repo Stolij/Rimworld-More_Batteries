@@ -27,7 +27,7 @@
     <minifiedDef>MinifiedThing</minifiedDef>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
-      <WorkToMake>800</WorkToMake>
+      <WorkToBuild>800</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-18</Beauty>
     </statBases>

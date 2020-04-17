@@ -29,9 +29,9 @@
     	</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>1200</WorkToMake>
+			<WorkToBuild>2250</WorkToBuild>
 			<Flammability>2.0</Flammability>
-			<MarketValue>5000</MarketValue>
+			<MarketValue>15000</MarketValue>
 			<Beauty>-6</Beauty>
 			<Mass>30</Mass>
 		</statBases>
