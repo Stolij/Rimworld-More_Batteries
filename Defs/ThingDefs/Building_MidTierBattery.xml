@@ -29,7 +29,7 @@
     	</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToMake>1200</WorkToMake>
+			<WorkToBuild>1250</WorkToBuild>
 			<Flammability>2.0</Flammability>
 			<Beauty>-6</Beauty>
 			<Mass>22</Mass>
@@ -37,7 +37,7 @@
 		<description>This Battery can store a bit more power and is a bit more efficient. Warning - charged batteries tend to explode when heated or wet.</description>
 		<size>(1,2)</size>
 		<costList>
-			<Steel>400</Steel>
+			<Steel>175</Steel>
 			<Uranium>2</Uranium>
 			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
