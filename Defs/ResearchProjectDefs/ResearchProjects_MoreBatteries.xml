@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<ResearchTabDef>
+    <defName>MoreBatteries_ResearchTab</defName>
+    <label>More Batteries</label>
+  </ResearchTabDef>
+  
   <ResearchProjectDef>
     <defName>ArchotechPowerStorage</defName>
     <label>Archotech Power Cells</label>
@@ -14,6 +18,9 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+	<researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+	<tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -29,6 +36,9 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+	<researchViewX>5</researchViewX>
+    <researchViewY>1</researchViewY>
+	<tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -44,6 +54,9 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+	<researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+	<tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -59,6 +72,9 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
+	<researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+	<tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -72,6 +88,9 @@
       <li>Batteries</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+	<tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   </Defs>
