@@ -20,7 +20,7 @@
 		</requiredResearchFacilities>
 	<researchViewX>4</researchViewX>
     <researchViewY>1</researchViewY>
-	<tab>MoreBatteries_ResearchTab</tab>
+	  <tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -56,7 +56,7 @@
 		</requiredResearchFacilities>
 	<researchViewX>3</researchViewX>
     <researchViewY>1</researchViewY>
-	<tab>MoreBatteries_ResearchTab</tab>
+	  <tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -74,7 +74,7 @@
 		</requiredResearchFacilities>
 	<researchViewX>2</researchViewX>
     <researchViewY>1</researchViewY>
-	<tab>MoreBatteries_ResearchTab</tab>
+	  <tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
@@ -90,7 +90,7 @@
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 	<researchViewX>1</researchViewX>
     <researchViewY>1</researchViewY>
-	<tab>MoreBatteries_ResearchTab</tab>
+	  <tab>MoreBatteries_ResearchTab</tab>
   </ResearchProjectDef>
 
   </Defs>
