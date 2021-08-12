@@ -8,10 +8,10 @@ This mod adds a couple of new batteries:
 
 | Battery Type | Capacity | Efficiency |
 | ------------- |:-------------:| -----:|
-| Improved Battery | 1250wd | 55% |
-| Advanced Battery | 1500wd | 65% |
-| Glitterworld Battery | 2000wd | 80% |
-| Archotech Battery | 4000wd | 120% |
+| Improved Battery | 850wd | 55% |
+| Advanced Battery | 1200wd | 65% |
+| Glitterworld Battery | 1800wd | 80% |
+| Archotech Battery | 3250wd | 120% |
 
 
 # Images
