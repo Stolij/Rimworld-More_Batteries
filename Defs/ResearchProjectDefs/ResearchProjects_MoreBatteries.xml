@@ -8,8 +8,8 @@
   <ResearchProjectDef>
     <defName>ArchotechPowerStorage</defName>
     <label>Archotech Power Cells</label>
-    <description>Learn how to create the most powerful battery cells that are used by the Archotech to build the 'Archotech Battery'</description>
-    <baseCost>8000</baseCost>
+    <description>Learn how to create the most powerful battery cells which are used by the Archotech to build their 'Archotech Battery'</description>
+    <baseCost>11500</baseCost>
     <techLevel>Archotech</techLevel>
     <prerequisites>
       <li>AdvancedBattery</li>
@@ -26,7 +26,7 @@
   <ResearchProjectDef>
     <defName>VeryAdvancedBattery</defName>
     <label>Archotech Battery</label>
-    <description>Battery type used by the Archotech, it is of the highest caliber emaginable</description>
+    <description>Battery type used by the Archotech, it is of the highest caliber imaginable</description>
     <baseCost>8000</baseCost>
     <techLevel>Archotech</techLevel>
     <prerequisites>
@@ -44,7 +44,7 @@
   <ResearchProjectDef>
     <defName>AdvancedBattery</defName>
     <label>Glitterworld Battery</label>
-    <description>This battery is more efficient and can hold even more power than the Advanced battery.</description>
+    <description>These batteries are used on Glitterworlds to store their excess energy.</description>
     <baseCost>2000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>

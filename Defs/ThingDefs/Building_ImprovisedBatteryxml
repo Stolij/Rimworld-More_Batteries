@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-	<Defs>
-
-	<ThingDef ParentName="BuildingBase">
-    <defName>Battery</defName>
+<Defs>  
+  <ThingDef ParentName="BuildingBase">
+    <defName>ImprovisedBattery</defName>
     <label>Improvised battery</label>
+    <description>Stores electricity for later use. Charged batteries explode when exposed to rain or fire.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <thingClass>Building_Battery</thingClass>
     <graphicData>
       <texPath>Things/Building/Power/Battery</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,3)</drawSize>
+      <drawSize>(1,2)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -19,40 +20,47 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
+    <pathCost>50</pathCost>
     <blockWind>true</blockWind>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.40</fillPercent>
     <tickerType>Normal</tickerType>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>800</WorkToBuild>
+      <Mass>20</Mass>
       <Flammability>1.0</Flammability>
-      <Beauty>-18</Beauty>
+      <Beauty>-15</Beauty>
     </statBases>
-    <description>Stores electricity when there is excess power And yields it when there is not, this battery is not very great at storing power. Warning - charged batteries tend to explode when heated or wet.</description>
     <size>(1,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
     <costList>
-      <Steel>50</Steel>
+      <Steel>70</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Battery">
-        <storedEnergyMax>650</storedEnergyMax>
+        <storedEnergyMax>400</storedEnergyMax>
         <efficiency>0.35</efficiency>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationHotkey>Misc4</designationHotkey>
+    <designationHotKey>Misc4</designationHotKey>
+    <canOverlapZones>false</canOverlapZones>
     <researchPrerequisites>
       <li>Batteries</li>
     </researchPrerequisites>
   </ThingDef>
-	</Defs>
+</Defs>

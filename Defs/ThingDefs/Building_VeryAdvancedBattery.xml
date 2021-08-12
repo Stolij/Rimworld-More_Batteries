@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-	<Defs>
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>VeryAdvancedBattery</defName>
-		<label>Archotech Battery</label>
-		<thingClass>Building_Battery</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Batteries/VeryAdvancedBattery</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,2)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>1</fillPercent>
-		<tickerType>Normal</tickerType>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-      		<li>BuildingsPower</li>
-    	</thingCategories>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>2250</WorkToBuild>
-			<Flammability>2.0</Flammability>
-			<MarketValue>15000</MarketValue>
-			<Beauty>-6</Beauty>
-			<Mass>30</Mass>
-		</statBases>
-		<description>An extremely advanced piece of machinery, treat with care. Warning - charged batteries tend to explode when heated or wet.</description>
-		<size>(1,2)</size>
-		<costList>
-			<Steel>500</Steel>
-			<Uranium>10</Uranium>
-			<ArchotechPowerCell>10</ArchotechPowerCell>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<ComponentSpacer>6</ComponentSpacer>
-		</costList>
-		<comps>
-			<li Class="CompProperties_Battery">
-				<storedEnergyMax>4000</storedEnergyMax>
-				<efficiency>1.2</efficiency>
-				<shortCircuitInRain>true</shortCircuitInRain>
-				<transmitsPower>true</transmitsPower>
-			</li>
-		<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
-		<constructEffect>ConstructMetal</constructEffect>
-		<researchPrerequisites>
-			<li>VeryAdvancedBattery</li>
-			<li>ArchotechPowerStorage</li>
-		</researchPrerequisites>
-	</ThingDef>
-	</Defs>
+<Defs>    
+    <ThingDef ParentName="BuildingBase">
+        <defName>VeryAdvancedBattery</defName>
+        <label>Archotech battery</label>
+        <description>An extremely advanced piece of machinery; Treat it with care. Charged batteries explode when exposed to rain or fire.</description>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <thingClass>Building_Battery</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Batteries/VeryAdvancedBattery</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>0.40</fillPercent>
+        <tickerType>Normal</tickerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsPower</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>2500</WorkToBuild>
+            <MarketValue>15000</MarketValue>
+            <Mass>30</Mass>
+            <Flammability>0.95</Flammability>
+            <Beauty>-15</Beauty>
+        </statBases>
+        <size>(1,2)</size>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <costList>
+            <Steel>500</Steel>
+            <Uranium>10</Uranium>
+            <ArchotechPowerCell>10</ArchotechPowerCell>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentSpacer>6</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Battery">
+                <storedEnergyMax>3250</storedEnergyMax>
+                <efficiency>1.2</efficiency>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <staticSunShadowHeight>0.2</staticSunShadowHeight>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc4</designationHotKey>
+        <canOverlapZones>false</canOverlapZones>
+        <researchPrerequisites>
+            <li>VeryAdvancedBattery</li>
+            <li>ArchotechPowerStorage</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Defs>

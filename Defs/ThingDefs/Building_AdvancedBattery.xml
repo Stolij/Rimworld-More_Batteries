@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-	<Defs>
-
-	<ThingDef ParentName="BuildingBase">
-		<defName>AdvancedBattery</defName>
-		<label>Glitterworld Battery</label>
-		<thingClass>Building_Battery</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Batteries/AdvancedBattery</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,2)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>70</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>1</fillPercent>
-		<tickerType>Normal</tickerType>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-      		<li>BuildingsPower</li>
-    	</thingCategories>
-		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
-			<WorkToBuild>1800</WorkToBuild>
-			<Flammability>2.0</Flammability>
-			<Beauty>-6</Beauty>
-			<Mass>25</Mass>
-		</statBases>
-		<description>This Battery can store more power and is more efficient. Warning - charged batteries tend to explode when heated or wet.</description>
-		<size>(1,2)</size>
-		<costList>
+<Defs>    
+    <ThingDef ParentName="BuildingBase">
+        <defName>AdvancedBattery</defName>
+        <label>Glitterworld battery</label>
+        <description>This Battery can store more power and is more efficient. Charged batteries explode when exposed to rain or fire.</description>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <thingClass>Building_Battery</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Batteries/AdvancedBattery</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <blockWind>true</blockWind>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>0.40</fillPercent>
+        <tickerType>Normal</tickerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsPower</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToBuild>1800</WorkToBuild>
+            <Mass>25</Mass>
+            <Flammability>1.15</Flammability>
+            <Beauty>-15</Beauty>
+        </statBases>
+        <size>(1,2)</size>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <costList>
 			<Steel>250</Steel>
 			<Uranium>1</Uranium>
 			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>4</ComponentSpacer>
-		</costList>
-		<comps>
-			<li Class="CompProperties_Battery">
-				<storedEnergyMax>2000</storedEnergyMax>
-				<efficiency>0.8</efficiency>
-				<shortCircuitInRain>true</shortCircuitInRain>
-				<transmitsPower>true</transmitsPower>
-			</li>
-		<li Class="CompProperties_Breakdownable"/>
-		</comps>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Power</designationCategory>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
-		<constructEffect>ConstructMetal</constructEffect>
-		<researchPrerequisites>
-			<li>AdvancedBattery</li>
-		</researchPrerequisites>
-	</ThingDef>
-	</Defs>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Battery">
+                <storedEnergyMax>1800</storedEnergyMax>
+                <efficiency>0.8</efficiency>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <designationCategory>Power</designationCategory>
+        <staticSunShadowHeight>0.2</staticSunShadowHeight>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc4</designationHotKey>
+        <canOverlapZones>false</canOverlapZones>
+        <researchPrerequisites>
+            <li>AdvancedBattery</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Defs>
