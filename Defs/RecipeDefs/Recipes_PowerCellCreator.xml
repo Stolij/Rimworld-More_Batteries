@@ -9,10 +9,11 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>12000</workAmount>
-     <recipeUsers>
-         <li>TableMachining</li>
-      </recipeUsers>
-		<ingredients>
+    <recipeUsers>
+        <li>TableMachining</li>
+    </recipeUsers>
+    <researchPrerequisite>ArchotechPowerStorage</researchPrerequisite>
+    <ingredients>
       <li>
         <filter>
           <thingDefs>
