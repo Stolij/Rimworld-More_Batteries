@@ -44,7 +44,7 @@
 			<Steel>250</Steel>
 			<Uranium>1</Uranium>
 			<ComponentIndustrial>2</ComponentIndustrial>
-			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentSpacer>2</ComponentSpacer>
         </costList>
         <comps>
             <li Class="CompProperties_Battery">

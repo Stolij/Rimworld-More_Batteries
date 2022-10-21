@@ -46,7 +46,7 @@
             <Uranium>10</Uranium>
             <ArchotechPowerCell>10</ArchotechPowerCell>
             <ComponentIndustrial>2</ComponentIndustrial>
-            <ComponentSpacer>6</ComponentSpacer>
+            <ComponentSpacer>4</ComponentSpacer>
         </costList>
         <comps>
             <li Class="CompProperties_Battery">
