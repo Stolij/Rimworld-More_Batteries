@@ -15,4 +15,4 @@ This mod adds a couple of new batteries:
 
 
 # Images
-![Preview Image](https://raw.githubusercontent.com/Stolij/Rimworld-More_Batteries/master/About/PREVIEW.PNG "Nothing to see here ;)")
+![Preview Image](https://raw.githubusercontent.com/Stolij/Rimworld-More_Batteries/master/About/Preview.png "Nothing to see here ;)")
